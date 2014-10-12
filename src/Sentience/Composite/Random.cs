@@ -15,7 +15,7 @@
         /// with the provided <paramref name="behaviors"/>.
         /// </summary>
         /// <param name="behaviors">An array of <see cref="Behavior"/> instances.</param>
-        protected Random(params Behavior[] behaviors)
+        public Random(params Behavior[] behaviors)
             : this(null, behaviors)
         {
         }
@@ -26,7 +26,7 @@
         /// </summary>
         /// <param name="name">The friendly name of the behavior.</param>
         /// <param name="behaviors">An array of <see cref="Behavior"/> instances.</param>
-        protected Random(string name, params Behavior[] behaviors)
+        public Random(string name, params Behavior[] behaviors)
             : base(name, behaviors)
         {
             this.random =

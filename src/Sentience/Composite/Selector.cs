@@ -11,7 +11,7 @@ namespace Sentience.Composite
         /// with the provided <paramref name="behaviors"/>.
         /// </summary>
         /// <param name="behaviors">An array of <see cref="Behavior"/> instances.</param>
-        protected Selector(params Behavior[] behaviors)
+        public Selector(params Behavior[] behaviors)
             : this(null, behaviors)
         {
         }
@@ -22,7 +22,7 @@ namespace Sentience.Composite
         /// </summary>
         /// <param name="name">The friendly name of the behavior.</param>
         /// <param name="behaviors">An array of <see cref="Behavior"/> instances.</param>
-        protected Selector(string name, params Behavior[] behaviors)
+        public Selector(string name, params Behavior[] behaviors)
             : base(name)
         {
             this.Behaviors = behaviors;

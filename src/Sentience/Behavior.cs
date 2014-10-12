@@ -47,7 +47,7 @@
             }
             catch
             {
-                result = BehaviorResult.Failure; ;
+                result = BehaviorResult.Failure;
             }
 
             return result;

@@ -1,14 +1,8 @@
-﻿using Sentience.Composite;
-using Sentience.Tests.Behaviors;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit;
-
-namespace Sentience.Tests.Composite
+﻿namespace Sentience.Tests.Composite
 {
+    using Sentience.Composite;
+    using Xunit;
+
     public sealed class SequenceTests
     {
         public sealed class TheOnBehaveMethod

@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sentience.Tests.Behaviors
+﻿namespace Sentience.Tests.Behaviors
 {
     public sealed class PredictableBehavior : Behavior
     {
-        private readonly BehaviorResult _result;
+        private readonly BehaviorResult result;
 
         public PredictableBehavior(BehaviorResult result)
         {
-            _result = result;
+            this.result = result;
         }
 
         public override BehaviorResult OnBehave(BehaviorContext context)
         {
-            return _result;
+            return this.result;
         }
     }
 }

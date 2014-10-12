@@ -44,7 +44,6 @@
     <Compile Include="BehaviorContext.cs" />
     <Compile Include="BehaviorResult.cs" />
     <Compile Include="Decorator\Inverter.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Composite\Random.cs" />
     <Compile Include="Composite\Selector.cs" />

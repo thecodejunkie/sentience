@@ -1,5 +1,6 @@
 ﻿namespace Sentience.Tests.Composite
 {
+    using Behaviors;
     using Sentience.Composite;
     using Xunit;
 

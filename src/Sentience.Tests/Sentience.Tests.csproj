@@ -48,6 +48,7 @@
     <Compile Include="Behaviors\PredictableBehavior.cs" />
     <Compile Include="Composite\SelectorTests.cs" />
     <Compile Include="Composite\SequenceTests.cs" />
+    <Compile Include="Decorator\InverterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
